@@ -1,0 +1,160 @@
+
+3610fc133b0a :) SHOW DATABASES;
+                
+
+SHOW DATABASES
+
+Query id: 3b5faf34-ea88-41ca-a0c5-0e8f94890853
+
+┌─name───────────────┐
+│ INFORMATION_SCHEMA │
+│ default            │
+│ information_schema │
+│ system             │
+└────────────────────┘
+
+4 rows in set. Elapsed: 0.004 sec. 
+
+3610fc133b0a :) SHOW TABLES FROM default;
+
+SHOW TABLES FROM default
+
+Query id: d155e2c1-7710-48b3-a444-d4dced6ceb73
+
+┌─name────┐
+│ example │
+└─────────┘
+
+1 row in set. Elapsed: 0.012 sec. 
+
+3610fc133b0a :) SELECT * FROM example
+
+SELECT *
+FROM example
+
+Query id: cf1cbaef-bdb2-4166-a705-fc690e6f3ee5
+
+Ok.
+
+0 rows in set. Elapsed: 0.002 sec. 
+
+3610fc133b0a :) SELECT * FROM example
+
+SELECT *
+FROM example
+
+Query id: 93092098-5266-4cb4-8c26-569267e9dd31
+
+┌─id─┬─name────┐
+│  1 │ Name 1  │
+│  2 │ Name 2  │
+│  3 │ Name 3  │
+│  4 │ Name 4  │
+│  5 │ Name 5  │
+│  6 │ Name 6  │
+│  7 │ Name 7  │
+│  8 │ Name 8  │
+│  9 │ Name 9  │
+│ 10 │ Name 10 │
+└────┴─────────┘
+
+10 rows in set. Elapsed: 0.002 sec. 
+
+3610fc133b0a :) SELECT * FROM example
+
+SELECT *
+FROM example
+
+Query id: e3cce8ec-27e2-4281-833a-80ecc45b4d52
+
+┌─id─┬─name────┐
+│  1 │ Name 1  │
+│  2 │ Name 2  │
+│  3 │ Name 3  │
+│  4 │ Name 4  │
+│  5 │ Name 5  │
+│  6 │ Name 6  │
+│  7 │ Name 7  │
+│  8 │ Name 8  │
+│  9 │ Name 9  │
+│ 10 │ Name 10 │
+└────┴─────────┘
+┌─id─┬─name────┐
+│  1 │ user 1  │
+│  2 │ user 2  │
+│  3 │ user 3  │
+│  4 │ user 4  │
+│  5 │ user 5  │
+│  6 │ user 6  │
+│  7 │ user 7  │
+│  8 │ user 8  │
+│  9 │ user 9  │
+│ 10 │ user 10 │
+└────┴─────────┘
+
+20 rows in set. Elapsed: 0.002 sec. 
+
+3610fc133b0a :) SELECT * FROM example
+
+SELECT *
+FROM example
+
+Query id: fca10d6c-8fc9-4c0f-b0c7-eb2e8e09b35e
+
+┌─id─┬─name────┐
+│  1 │ Name 1  │
+│  2 │ Name 2  │
+│  3 │ Name 3  │
+│  4 │ Name 4  │
+│  5 │ Name 5  │
+│  6 │ Name 6  │
+│  7 │ Name 7  │
+│  8 │ Name 8  │
+│  9 │ Name 9  │
+│ 10 │ Name 10 │
+└────┴─────────┘
+┌─id─┬─name────┐
+│  1 │ user 1  │
+│  2 │ user 2  │
+│  3 │ user 3  │
+│  4 │ user 4  │
+│  5 │ user 5  │
+│  6 │ user 6  │
+│  7 │ user 7  │
+│  8 │ user 8  │
+│  9 │ user 9  │
+│ 10 │ user 10 │
+└────┴─────────┘
+┌─id─┬─name────┐
+│ 11 │ user 11 │
+│ 12 │ user 12 │
+│ 13 │ user 13 │
+│ 14 │ user 14 │
+│ 15 │ user 15 │
+│ 16 │ user 16 │
+│ 17 │ user 17 │
+│ 18 │ user 18 │
+│ 19 │ user 19 │
+│ 20 │ user 20 │
+└────┴─────────┘
+
+30 rows in set. Elapsed: 0.003 sec. 
+
+3610fc133b0a :) SELECT name FROM example WHERE id = 1
+
+SELECT name
+FROM example
+WHERE id = 1
+
+Query id: 05446525-61ef-49af-8620-6cabd538324a
+
+┌─name───┐
+│ Name 1 │
+└────────┘
+┌─name───┐
+│ user 1 │
+└────────┘
+
+2 rows in set. Elapsed: 0.022 sec. 
+
+3610fc133b0a :) 

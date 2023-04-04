@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  clickhouse-server:
+    image: clickhouse/clickhouse-server
+    container_name: my-clickhouse-server
+    ports:
+      - "9000:9000"
